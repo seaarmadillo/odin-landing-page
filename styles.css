@@ -5,34 +5,78 @@
 /* general styling */
 
 body {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
 
 }
 
 h1 {
+    font-family: Portofino;
+    font-size: 48px;
+    font-weight: 400;
+    color:rgb(231, 65, 17);
 
 }
 
 h2 {
+    font-family: Portofino;
+    font-size: 32px;
+    font-weight: 400;
+    color:rgb(231, 65, 17);
 
 }
 
 h3 {
+    font-family: Portofino;
+    font-size: 24px;
+    font-weight: 400;
+    color:rgb(231, 65, 17);
+
 
 }
 
+h4{
+    font-family: Portofino;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(231, 65, 17);
+}
+
 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    color:rgb(24, 32, 21);
 
 }
 
 background-color {
-
+    color: rgb(255, 252, 221);
 }
+
 
 img{
 
 }
 
 button{
+    font-family: Portofino;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 252, 221);
+
+    background-color: rgb(231, 65, 17);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-style: hidden;
+    border-radius: 2px;
+
+
 
 }
 
@@ -40,12 +84,54 @@ article{
 
 }
 
+section {
 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 300px;
+    padding-right: auto;
+
+    margin: 0px;
+
+
+
+
+}
+
+footer{
+    font-size: 14px;
+    color: rgb(255, 252, 221);
+
+    background-color: rgb(24, 32, 21);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 300px;
+    padding-right: auto;
+}
 
 /* section classes */
 
 .hero-section{
+    color: rgb(255, 252, 221);
+    background-color: rgb(51, 61, 38);
+    padding: 300px;
 
+
+}
+
+.cta{
+
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 252, 221);
+
+    background-color: rgb(231, 65, 17);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 300px;
+    padding-right: auto;
 }
 
 
@@ -86,4 +172,19 @@ article{
 
 .blockquote {
     
+}
+
+.darktheme{
+    
+    color:rgb(255, 252, 221)
+
+
+}
+
+.altbutton{
+    color: rgb(255, 252, 221);
+    background-color: rgb(24, 32, 21);
+
+    border-style: hidden;
+    border-radius: 2px;
 }
